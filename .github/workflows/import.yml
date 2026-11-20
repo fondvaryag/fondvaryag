@@ -1,0 +1,15 @@
+name: Перенос сайта фонда
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Забрать готовый сайт и выложить в gh-pages
+        run: |
+          git init site && cd site
+          git fetch --depth 1 https://github.com/ysddev/ysdprojects.git fond-export
+          git checkout -b gh-pages FETCH_HEAD
+          git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages --force
