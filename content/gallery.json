@@ -1,6 +1,37 @@
 {
   "groups": [
     {
+      "title": "Мурал в память о Михаиле Гудкове во Владивостоке",
+      "text": "",
+      "items": [
+        {
+          "image": "/assets/uploads/e09-01-2.jpg",
+          "caption": "",
+          "video": ""
+        },
+        {
+          "image": "/assets/uploads/e09-02.jpg",
+          "caption": "",
+          "video": ""
+        },
+        {
+          "image": "/assets/uploads/e09-03.jpg",
+          "caption": "",
+          "video": ""
+        },
+        {
+          "image": "/assets/uploads/image-23-11-26-04-09-1.jpeg",
+          "caption": "",
+          "video": ""
+        },
+        {
+          "image": "/assets/uploads/image-23-11-26-04-09.jpeg",
+          "caption": "",
+          "video": ""
+        }
+      ]
+    },
+    {
       "title": "Открытие мурала в память о Михаиле Гудкове в Курске",
       "text": "",
       "items": [
