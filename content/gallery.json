@@ -1,6 +1,37 @@
 {
   "groups": [
     {
+      "title": "Открытие мурала в память о Михаиле Гудкове в Курске",
+      "text": "",
+      "items": [
+        {
+          "image": "/assets/uploads/image-23-11-26-08-09-1.jpeg",
+          "caption": "",
+          "video": ""
+        },
+        {
+          "image": "/assets/uploads/image-23-11-26-08-09-2.jpeg",
+          "caption": "",
+          "video": ""
+        },
+        {
+          "image": "/assets/uploads/image-23-11-26-08-09-3.jpeg",
+          "caption": "",
+          "video": ""
+        },
+        {
+          "image": "/assets/uploads/image-23-11-26-08-09.jpeg",
+          "caption": "",
+          "video": ""
+        },
+        {
+          "image": "/assets/uploads/e10-05.jpg",
+          "caption": "",
+          "video": ""
+        }
+      ]
+    },
+    {
       "title": "Открытие памятника",
       "text": "Торжественная церемония открытия памятника дважды Герою России генерал-майору Михаилу Гудкову прошла на территории мемориального комплекса «Пантеон защитников Отечества»",
       "items": [
