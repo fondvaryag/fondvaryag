@@ -21,6 +21,18 @@ logo_url: https://fondvaryag.ru/assets/logo-varyag-black.png
 media_folder: assets/uploads
 public_folder: assets/uploads
 
+# Фото уменьшаются прямо в браузере перед загрузкой: до 1600 px по длинной стороне, WebP.
+# Снимок с телефона 5–8 МБ превращается в 200–500 КБ — сохранение не обрывается, сайт быстрый.
+media_libraries:
+  default:
+    config:
+      transformations:
+        raster_image:
+          format: webp
+          quality: 80
+          width: 1600
+          height: 1600
+
 collections:
   - name: content
     label: Содержимое сайта
