@@ -100,7 +100,8 @@ collections:
                 required: false
                 summary: "{{fields.caption}}"
                 fields:
-                  - { name: video, label: "Видео (mp4, лучше до 50 МБ)", widget: file }
+                  - { name: link, label: "Ссылка на видео в VK Видео или RuTube (для длинных и тяжёлых видео)", widget: string, required: false, hint: "Загрузите видео в VK Видео или RuTube и вставьте сюда ссылку. Тогда файл ниже не нужен." }
+                  - { name: video, label: "Или файл видео (mp4, не больше 20 МБ)", widget: file, required: false, media_library: { config: { max_file_size: 20971520 } }, hint: "Видео с телефона обычно тяжелее — его лучше дать ссылкой выше." }
                   - { name: poster, label: "Обложка видео (необязательно)", widget: image, required: false }
                   - { name: caption, label: "Подпись (необязательно)", widget: string, required: false }
               - name: photos
@@ -134,7 +135,8 @@ collections:
                 required: false
                 summary: "{{fields.caption}}"
                 fields:
-                  - { name: video, label: "Видео (mp4, лучше до 50 МБ)", widget: file }
+                  - { name: link, label: "Ссылка на видео в VK Видео или RuTube (для длинных и тяжёлых видео)", widget: string, required: false, hint: "Загрузите видео в VK Видео или RuTube и вставьте сюда ссылку. Тогда файл ниже не нужен." }
+                  - { name: video, label: "Или файл видео (mp4, не больше 20 МБ)", widget: file, required: false, media_library: { config: { max_file_size: 20971520 } }, hint: "Видео с телефона обычно тяжелее — его лучше дать ссылкой выше." }
                   - { name: poster, label: "Обложка видео (необязательно)", widget: image, required: false }
                   - { name: caption, label: "Подпись (необязательно)", widget: string, required: false }
               - name: photos
