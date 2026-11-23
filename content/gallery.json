@@ -153,11 +153,6 @@
           "video": ""
         },
         {
-          "image": "/assets/uploads/image-23-11-26-03-15-6.jpeg",
-          "caption": "",
-          "video": ""
-        },
-        {
           "image": "/assets/uploads/image-23-11-26-03-15-2.jpeg",
           "caption": "",
           "video": ""
@@ -248,6 +243,21 @@
         {
           "image": "assets/bio/byust.jpg",
           "caption": "Открытие бюста Михаила Гудкова в филиале Нахимовского военно-морского училища в Мариуполе",
+          "video": ""
+        },
+        {
+          "image": "/assets/uploads/e05-02.jpg",
+          "caption": "",
+          "video": ""
+        },
+        {
+          "image": "/assets/uploads/de-1200.jpg",
+          "caption": "",
+          "video": ""
+        },
+        {
+          "image": "/assets/uploads/v-filiale-nahimovskogo-voenno-morskogo-uchilishha-v-mariupole-otkryt-byust-dvazhdy-geroyu-rossii-general-majoru-mihailu-gudkovu.jpg",
+          "caption": "",
           "video": ""
         }
       ]
